@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h3>Registration Form</h3>
+        <form name="form1">
+                <table>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input type="text" placeholder="Enter your First Name" class="field"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Age</label></td>
+                        <td><select name="" id="">
+                            <option value="">Select Age</option>
+                            <option value="">1-18</option>
+                            <option value="">19-30</option>
+                            <option value="">31-50</option>
+                            <option value="">50+</option>
+                        </select>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" name="pass1" placeholder="password" class="field"><span id="span2"></span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td id="pass1_error"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Confirm Password</label></td>
+                        <td><input type="password" name="pass2" placeholder="Confirm password" class="field"><span id="span3"></span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td id="pass2_error"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" name="email" pattern=".+@gmail\.com" placeholder="username@gmail.com" class="field"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Mobile</label></td>
+                        <td><input type="number" name="mobile" placeholder="123-456-7890" class="field"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="radio" name="male">Male
+                            <input type="radio" name="female">Female
+                        </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth</label></td>
+                    <td><input type="date" class="field"></td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><textarea rows="6" cols="39"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>City</label></td>
+                    <td><input type="text" class="field"></td>
+                </tr>
+                <tr>
+                    <td><label>Area PIN</label></td>
+                    <td><input type="number" name="pin" class="field"></td>
+                </tr>
+                <tr>
+                    <td><label>State</label></td>
+                    <td><input type="text" class="field"></td>
+                </tr>
+                <tr>
+                    <td><label>Qualification</label></td>
+                    <td><select name="" id="">
+                            <option value="">Select Qualification</option>
+                            <option value="">Under Graduate</option>
+                            <option value="">Post Graduate</option>
+                            <option value="">SSLC</option>
+                            <option value="">Plus Two</option>
+                            <option value="">UP</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Specialization</label></td>
+                    <td><input type="checkbox" name="CS">Computer Science <br>
+                        <input type="checkbox" name="IT">Information Technology <br>
+                        <input type="checkbox" name="CA">Computer Architecture <br>
+                        <input type="checkbox" name="TC">Tele Communication <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Specilization</label>
+                    </td>
+                    <td><input type="text" class="field"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" value="Submit" onclick="form_validation()" id="button">Register</button>
+                    </td>
+                </tr>
+                </table>
+         
+        </form>
+        <script src="fromjs.js">
+        </script>
+    </body>
+</html>

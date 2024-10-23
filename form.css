@@ -1,0 +1,30 @@
+h3{
+    text-align: right;
+    color: brown;
+    text-decoration: underline;
+}
+
+table{
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.field{
+    width: 80%;
+}
+
+#button{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    width: 100px;
+}
+
+#button:hover{
+    background-color: black;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
