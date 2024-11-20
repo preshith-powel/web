@@ -1,0 +1,63 @@
+.div1{
+    border: 1.5px;
+    border-style: solid;
+    width: 65%;
+    padding: 1%;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px;
+    border-style: solid;
+    position: relative;
+    width: 65%;
+    height: 200px;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.img1, .img2{
+    position: absolute;
+    width: 250px; 
+    height: 250px;
+    overflow: hidden;
+    animation: anim 4s infinite;
+    
+}
+
+.img2{
+    opacity: 0;
+}
+
+@keyframes anim{
+    0%{ opacity: 0;}
+    50%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
+
+.img2{
+    animation-delay: 2s;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.div3{
+    border: 1.5px;
+    border-style: solid;
+    position: relative;
+    width: 31.4%;
+    padding: 1%;
+}
+
+.div4{
+    border: 1.5px;
+    border-style: solid;
+    position: relative;
+    width: 31.4%;
+    padding: 1%;
+}
